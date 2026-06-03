@@ -1,0 +1,47 @@
+.auth-container {
+    background-color: #f0f2f5;
+}
+
+.auth-card {
+    border: 1px solid #dadce0;
+    
+    h2 {
+        color: #202124;
+        font-family: 'Google Sans', Roboto, Arial, sans-serif;
+        font-weight: 400;
+    }
+    
+    h4 {
+        color: #202124;
+        font-family: 'Google Sans', Roboto, Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    .form-control {
+        border-radius: 4px;
+        &:focus {
+            box-shadow: none;
+            border-color: #1a73e8;
+        }
+    }
+    
+    .btn-primary {
+        background-color: #1a73e8;
+        border-color: #1a73e8;
+        font-weight: 500;
+        
+        &:hover {
+            background-color: #1557b0;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+        color: #1a73e8;
+        font-weight: 500;
+        
+        &:hover {
+            color: #1557b0;
+        }
+    }
+}

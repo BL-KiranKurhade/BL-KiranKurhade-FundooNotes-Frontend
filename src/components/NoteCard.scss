@@ -1,0 +1,28 @@
+.note-card {
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.2s ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+    }
+
+    .cursor-pointer {
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 50%;
+        transition: background-color 0.2s;
+        
+        &:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+    }
+
+    .note-toolbar {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+        
+        &.visible {
+            opacity: 1;
+        }
+    }
+}
